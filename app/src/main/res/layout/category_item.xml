@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:background="@drawable/rounded_box"
+    android:layout_margin="4dp"
+    android:padding="16dp"
+    android:backgroundTint="@android:color/white"
+    android:layout_height="wrap_content">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/myimageview"
+        android:src="@color/colorPrimary"
+        />
+    <TextView
+        android:id="@+id/titleimage"
+
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Title"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:gravity="center_vertical"
+        android:padding="8dp"
+
+        android:textStyle="bold"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:id="@+id/delete"
+        android:layout_height="wrap_content"
+        android:src="@drawable/delete"
+        android:background="@android:color/transparent"
+        android:padding="12dp"
+        android:layout_gravity="center_vertical"
+
+        />
+
+</LinearLayout>
